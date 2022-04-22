@@ -10,7 +10,7 @@ import org.junit.jupiter.api.*;
 import static com.codeborne.selenide.Selenide.sleep;
 
 @DisplayName("проверка поля почта на странице персональная информация")
-public class secondFormValidationTest extends MainTest {
+public class PersonalInfoFormValidationTest extends MainTest {
 
 
     private MainPage mainPage = new MainPage();

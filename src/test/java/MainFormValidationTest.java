@@ -10,10 +10,9 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
 @DisplayName("Проверка поля номера телефона")
-public class MainformValidationTest extends MainTest {
+public class MainFormValidationTest extends MainTest {
 
     private MainPage mainPage = new MainPage();
-    private PersonalInfoPage personalInfoPage = new PersonalInfoPage();
     // ------------------------------ test variables ---------------------------------------
 
     private String wrongPhone = "0887-098-0987";
